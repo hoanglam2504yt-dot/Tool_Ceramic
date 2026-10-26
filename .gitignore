@@ -1,0 +1,61 @@
+# ============================================================
+# OUTPUT & WORKING FILES (generated at runtime, not needed)
+# ============================================================
+
+# Ảnh đầu vào đã xử lý xong
+file_Ceramic/
+
+# Ảnh output sau khi xử lý
+image_done/
+image_error/
+
+# File AI & PNG output trong quá trình chạy
+template/output_ai/
+template/output_png/
+template/notet_work/
+template/note_done/
+
+# ============================================================
+# LARGE BINARY FILES (quá lớn để lưu trên GitHub)
+# ============================================================
+
+# File Adobe Illustrator template (>3MB, dùng LFS nếu cần)
+*.ai
+
+# ============================================================
+# LOG FILES
+# ============================================================
+*.log
+
+# ============================================================
+# WINDOWS SYSTEM FILES
+# ============================================================
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ============================================================
+# VS CODE
+# ============================================================
+.vscode/
+*.code-workspace
+
+# ============================================================
+# NODE / NPM (nếu sau này dùng)
+# ============================================================
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# ============================================================
+# PYTHON (nếu sau này dùng)
+# ============================================================
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
